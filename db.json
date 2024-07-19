@@ -1,0 +1,80 @@
+{
+    "routes": [
+      {
+        "id": 1,
+        "name": "Route 1",
+        "stops": [
+          { "name": "Stop 1",
+           "fare": 30 
+        },
+          { "name": "Stop 2",
+           "fare": 50
+        },
+          { "name": "Stop 3",
+           "fare": 80
+         }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Route 2",
+      "stops": [
+          { "name": "Stop 1",
+           "fare": 50
+        },
+          { "name": "Stop 2",
+           "fare": 70
+        },
+          { "name": "Stop 3",
+           "fare": 100
+         }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Route 3",
+        "stops": [
+          { "name": "Stop 1",
+           "fare": 30
+        },
+          { "name": "Stop 2",
+           "fare": 70
+        },
+          { "name": "Stop 3",
+           "fare": 120
+         }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Route 4",
+        "stops": [
+          { "name": "Stop 1",
+           "fare": 100 
+        },
+          { "name": "Stop 2",
+           "fare":250 
+        },
+          { "name": "Stop 3",
+           "fare": 400
+         }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Route 5",
+       "stops": [
+          { "name": "Stop 1",
+           "fare": 300 
+        },
+          { "name": "Stop 2",
+           "fare": 500 
+        },
+          { "name": "Stop 3",
+           "fare": 1200 
+         }
+        ]
+      }
+    ]
+  }
+  

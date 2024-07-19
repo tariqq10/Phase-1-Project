@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            font-family: "Playfair Display", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        #container {
+            border: solid 3px rgb(36, 0, 24);
+            max-width: 768px;
+            margin: 60px auto;
+            position: relative;
+            background: #0E4D92;
+        }
+
+        #content {
+            border-radius: 6px;
+            background-color: #054e7fa1;
+            padding: 20px 0px 20px 0px;
+        }
+
+        #name {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        #route {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        #gross {
+            color: #140303;
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        #submit{
+            font-size: 16px;
+            padding: 12px,28,;
+            border-radius: 2px;
+        }
+        #submit:hover{
+            background-color: #24243e; 
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1 id="gross">Fare Gross</h1>
+        </header>
+        <div id="content">
+            <form id="bus-form">
+                <label for="name">Bus Name</label>
+                <input type="text" id="name" placeholder="Enter bus name" required><br><br>
+                <label for="route">Bus Route</label>
+                <select name="route" id="route" required>
+                </select><br><br>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+        <section>
+            <ul id="results-list">
+                
+            </ul>
+        </section>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
